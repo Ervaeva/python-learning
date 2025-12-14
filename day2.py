@@ -1,5 +1,3 @@
-name =input("Enter your name:")
-age = int(input("Enter your age:"))
-
-print (f"Hello,{name}")
-print(f"In 5 years you will be { age + 5}")
+celsius = float (input ("Enter temperature in Celsius: "))
+fahrenheit = ( celsius * 9/5) + 32
+print (f"Temperature in fahrenheit = {fahrenheit}")
