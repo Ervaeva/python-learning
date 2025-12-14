@@ -1,5 +1,7 @@
-password = input("Enter your password:")
-if password == "Secret":
-    print ("Access granted")
-else:
-    print ("Access denied")
+number= int(input("Enter a number: "))
+if number >0:
+    print ("Positive number")
+elif number < 0:
+    print("Negative number")
+else :
+    print ("Zero")
