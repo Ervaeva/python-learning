@@ -1,5 +1,5 @@
-number = int(input("Enter a number:"))
-if number % 2 == 0:
-    print ("Even number")
+password = input("Enter your password:")
+if password == "Secret":
+    print ("Access granted")
 else:
-    print("Odd number")
+    print ("Access denied")
