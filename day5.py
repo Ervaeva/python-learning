@@ -1,7 +1,6 @@
-def count_vowels(text):
+def count_even(numbers):
     count = 0
-    for ch in text.lower():
-        if ch in "aeiou":
+    for n in numbers :
+        if n % 2 == 0:
             count += 1
     return count
-
