@@ -1,6 +1,7 @@
-def count_even(numbers):
-    count = 0
-    for n in numbers :
-        if n % 2 == 0:
-            count += 1
-    return count
+
+def reverse_string(text):
+    result = ""
+    for ch in text:
+        result = ch + result
+    return result
+
