@@ -1,8 +1,7 @@
-def max_of_three (a, b, c):
-    m = a
-    if b > m:
-        m = b
-    if c > m:
-        m= c
-    return m 
+def count_vowels(text):
+    count = 0
+    for ch in text.lower():
+        if ch in "aeiou":
+            count += 1
+    return count
 
