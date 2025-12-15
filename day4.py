@@ -1,4 +1,3 @@
-
-for i in range(1, 51):
-    print(i)
-
+print("Even number 1 - 100")
+for i in range (2, 101, 2):
+   print (i)
